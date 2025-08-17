@@ -2,7 +2,19 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 🚀 Features
+
+1. Expo SDK 50 (or latest)
+
+2. NativeWind (Tailwind CSS for React Native)
+
+3. Expo Router (File-based routing)
+
+4. TypeScript support
+
+5. Pre-configured styling system
+
+## 🛠️ Setup
 
 1. Install dependencies
 
@@ -35,16 +47,42 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## 🗂 Project Structure
 
-To learn more about developing your project with Expo, look at the following resources:
+/
+├── app/
+│ ├── \_layout.tsx # Root layout
+│ ├── global.css # Tailwind imports
+│ └── index.tsx # Home screen
+├── components/ # Shared components
+├── assets/ # Static assets
+├── tailwind.config.js # Tailwind configuration
+├── babel.config.js # Babel configuration
+├── metro.config.js # Metro bundler config
+└── nativewind-env.d.ts # TypeScript support
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## ⚙️ Configuration Files
 
-## Join the community
+1. tailwind.config.js - Configure your design system
 
-Join our community of developers creating universal apps.
+2. babel.config.js - Set up JSX transform for NativeWin
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3. metro.config.js - Enable NativeWind with Metro bundler
+
+## 🔄 Clearing Cache
+
+```sh
+
+npm start -- --clear
+# or
+yarn start --clear
+
+```
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+📄 License
+
+- [MIT] (https://choosealicense.com/licenses/mit/)
