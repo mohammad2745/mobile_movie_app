@@ -49,6 +49,7 @@ This command will move the starter code to the **app-example** directory and cre
 
 ## 🗂 Project Structure
 
+```tree
 /
 ├── app/
 │ ├── \_layout.tsx # Root layout
@@ -60,6 +61,7 @@ This command will move the starter code to the **app-example** directory and cre
 ├── babel.config.js # Babel configuration
 ├── metro.config.js # Metro bundler config
 └── nativewind-env.d.ts # TypeScript support
+```
 
 ## ⚙️ Configuration Files
 
@@ -85,4 +87,4 @@ Pull requests are welcome. For major changes, please open an issue first.
 
 📄 License
 
-- [MIT] (https://choosealicense.com/licenses/mit/)
+- [MIT](https://choosealicense.com/licenses/mit/)
